@@ -1,20 +1,19 @@
 # Text Summarisation AI
 
-## Goal
-Day-1 project setup for Infosys Springboard internship.
+## Overview
+Text Summarisation AI is a project aimed at building an **AI-powered system** that can generate concise and meaningful summaries from long input text.  
+The goal is to help users quickly understand large volumes of information.
 
-## Tools
-Python, Git, VS Code, Postman
+## Features (Planned)
+- Extractive and abstractive summarisation
+- Simple web-based interface
+- REST API for text summarisation
+- User authentication and profile management
+- Database for storing user data and summaries
 
-## Structure
-backend/, frontend/, documents/, tests/, requirements/
-
-## Quickstart
-- create virtual env  
-- install requirements  
-- run uvicorn backend.app.main:app --reload  
-
-## Git Workflow
-git add .  
-git commit -m "Day 1 setup"  
-git push origin main  
+## Tech Stack
+- **Backend:** Python (FastAPI)
+- **Frontend:** HTML, CSS, JavaScript
+- **Database:** MySQL
+- **API Testing:** Postman
+- **Version Control:** Git & GitHub
